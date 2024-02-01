@@ -2,7 +2,7 @@ package org.example;
 
 public class NumbersService {
     public static boolean isNumberDivideByTwo(int number) {
-        if (number % 3 == 0) {
+        if (number % 2 == 0) {
             return true;
         }
         return false;

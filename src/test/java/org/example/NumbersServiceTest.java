@@ -7,7 +7,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 class NumbersServiceTest {
     @ParameterizedTest
-    @ValueSource(ints = {3, 0, 9})
+    @ValueSource(ints = {2, 0, 10})
     public void shouldNumberDivideByTwo(int input) {
         Assertions.assertTrue(NumbersService.isNumberDivideByTwo(input));
     }
