@@ -1,6 +1,6 @@
-package org.example.gbr;
+package org.example.currency.gbr;
 
-import org.example.Currency;
+import org.example.currency.Currency;
 
 public class ExchangeRateGBR {
     double gbrSell;

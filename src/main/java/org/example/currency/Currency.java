@@ -1,4 +1,4 @@
-package org.example;
+package org.example.currency;
 
 public enum Currency {
     EUR(3.9558, 4.0358),

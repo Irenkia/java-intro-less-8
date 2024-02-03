@@ -1,4 +1,4 @@
-package org.example.gbr;
+package org.example.currency.gbr;
 
 public interface RateGBR {
     double sellGBR(double amountGbr);

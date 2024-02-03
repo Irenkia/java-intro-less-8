@@ -1,11 +1,11 @@
-package org.example;
+package org.example.currency;
 
-import org.example.eur.ExchangeRateEUR;
-import org.example.eur.RateEUR;
-import org.example.gbr.ExchangeRateGBR;
-import org.example.gbr.RateGBR;
-import org.example.usd.ExchangeRateUSD;
-import org.example.usd.RateUSD;
+import org.example.currency.eur.ExchangeRateEUR;
+import org.example.currency.eur.RateEUR;
+import org.example.currency.gbr.ExchangeRateGBR;
+import org.example.currency.gbr.RateGBR;
+import org.example.currency.usd.ExchangeRateUSD;
+import org.example.currency.usd.RateUSD;
 
 public class ConvectorCurrency implements RateEUR, RateUSD, RateGBR {
     ExchangeRateEUR exchangeRateEUR;

@@ -1,8 +1,8 @@
-package org.example;
+package org.example.currency;
 
 import static org.mockito.Mockito.when;
 
-import org.junit.jupiter.api.BeforeAll;
+import org.example.currency.ConvectorCurrency;
 import org.junit.jupiter.api.Test;
 
 import org.mockito.Mockito;

@@ -1,6 +1,6 @@
-package org.example.usd;
+package org.example.currency.usd;
 
-import org.example.Currency;
+import org.example.currency.Currency;
 
 public class ExchangeRateUSD {
     double usdSell;
