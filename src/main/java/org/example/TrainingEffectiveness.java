@@ -52,7 +52,7 @@ public class TrainingEffectiveness {
                 return "Fine";
             } else if (generalRating >= 2.0 && generalRating < 3.0) {
                 return "Very good";
-            } else if (generalRating >= 3.0) {
+            } else if (generalRating == 3.0) {
                 return "Great";
             }
         }
